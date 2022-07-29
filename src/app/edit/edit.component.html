@@ -1,0 +1,22 @@
+<!-- il me faut un formulaire avec tous les champs du pokemon-->
+
+
+<section class="container mt-5 boxedit">
+  <h1 class="text-center text-muted edit">Modification de {{pokemon.name | uppercase}}</h1>
+  <h2 class="text-center "><img width="200" [src]="pokemon.picture" alt=""></h2>
+
+  <div class="row-cols-2 form">
+      <div clas="col-md-6">
+          <input type="text" class="form-control modif" placeholder="" id="name" [(ngModel)]="pokemon.name"><br>
+      </div>
+      <div clas="col-md-6">
+          <input type="number" class="form-control modif" placeholder="" id="hp" [(ngModel)]="pokemon.hp"> <br>
+          <input type="number" class="form-control modif" placeholder="" id="cp" [(ngModel)]="pokemon.cp"><br>
+          <input type="text" class="form-control modif" placeholder="" id="type" [(ngModel)]="pokemon.type"><br>
+          <input type="text" class="form-control modif" placeholder="" id="picture" [(ngModel)]="pokemon.picture">
+      </div>
+      <button class="btn btn-dark mt-5 modif" (click)="validate()">Modifier</button>
+  </div>
+</section>
+
+

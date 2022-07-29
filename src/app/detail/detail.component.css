@@ -1,0 +1,14 @@
+.boxstat {
+  background-color: rgb(78, 139, 180);
+  border-radius: 20px;
+  padding: 2%;
+}
+.pokemonname
+ {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 400%;
+ }
+
+ .prop {
+  font-family: 'Saira', sans-serif;
+ }

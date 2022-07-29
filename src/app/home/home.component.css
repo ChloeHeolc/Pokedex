@@ -1,0 +1,25 @@
+.box
+{
+  border: 3px solid #ee1a2fed;
+  margin: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.box:hover {
+  background-color: red;
+  filter: grayscale();
+}
+
+.police {
+  font-family: 'Saira', sans-serif;
+  font-weight: bold;
+}
+
+.search {
+  font-family: 'Saira', sans-serif;
+}
+
+
